@@ -1,0 +1,19 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/__pycache__",
+        ".vscode",
+        ".mypy_cache",
+        ".venv",
+        "packages",
+        "typings"
+    ],
+    "ignore": [
+        "typings"
+    ],
+    "pythonVersion": "3.7",
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false
+}
