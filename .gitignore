@@ -11,3 +11,9 @@ ENV/
 
 # Ignore debug config 
 config.yml
+
+# docker-compose
+docker-compose.prod.yml
+
+# Makefile
+Makefile
