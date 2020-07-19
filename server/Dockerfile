@@ -26,6 +26,7 @@ RUN apt-get install -y gcc build-essential libpq-dev \
 ADD app.py ./app.py
 ADD /db    ./db
 ADD /utils ./utils
+ADD /auth ./auth
 ADD config.yml ./config.yml
 
 # simple process supervisor (dumb init)

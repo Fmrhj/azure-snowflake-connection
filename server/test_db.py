@@ -11,6 +11,7 @@ snowflake_config = config["snowflake"]
 snowflake_db_connector = SnowflakeConnector(
     user=snowflake_config["user"],
     account=snowflake_config["account"],
+    role=snowflake_config["role"],
     password=snowflake_config["password"],
     warehouse=snowflake_config["warehouse"],
 )
