@@ -24,6 +24,8 @@ RUN apt-get install -y gcc build-essential libpq-dev \
     && apt-get purge -y --auto-remove gcc build-essential
 
 ADD app.py ./app.py
+ADD /db    ./db
+ADD /utils ./utils
 ADD config.yml ./config.yml
 
 # simple process supervisor (dumb init)

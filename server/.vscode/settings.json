@@ -1,3 +1,17 @@
 {
-    "python.pythonPath": "/Users/fernando/.local/share/virtualenvs/server-BRV3iIc_/bin/python"
+    "editor.formatOnSave": true,
+    "python.pythonPath": "/Users/fernando/.local/share/virtualenvs/server-BRV3iIc_/bin/python",
+    "python.sortImports.args": [
+        "-rc",
+        "-sp isort.cfg"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=99"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
 }

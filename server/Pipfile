@@ -10,6 +10,12 @@ pylint = "*"
 fastapi = "*"
 uvicorn = "*"
 sqlalchemy = "*"
+snowflake-connector-python = "*"
+isort = "*"
+snowflake-sqlalchemy = "*"
+pandas = "*"
+pyyaml = "*"
+adal = "*"
 
 [requires]
 python_version = "3.7"

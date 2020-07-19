@@ -1,0 +1,19 @@
+snowflake:
+  user: XXX
+  account: XXX
+  password: XXX
+  warehouse: XXX
+  database: XXX
+  role: XXX
+
+azure:
+  authority_uri: XXX
+  app_id: XXX
+  app_password: XXX
+  resource_name: XXX
+
+snowflake_resource_in_azure:
+  oauth_token_endpoint: XXX
+
+sql:
+  select_statement: XXX
